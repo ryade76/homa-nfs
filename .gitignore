@@ -1,0 +1,22 @@
+# All real traffic and derived data stay local. Synthetic fixtures are source only.
+captures/
+results/
+private/
+data/
+*.pcap*
+*.cap
+*.pdml
+*.json
+*.jsonl
+*.ndjson
+*.csv
+*.tsv
+report.txt
+*.log
+*.pdf
+*.docx
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.DS_Store

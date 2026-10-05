@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "homa-nfs"
+version = "0.1.0"
+description = "Bounded local NFS/RPC baseline measurements"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+homa-nfs = "homa_nfs.cli:main"
+
+[tool.setuptools]
+packages = ["homa_nfs"]
